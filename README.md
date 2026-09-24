@@ -118,15 +118,3 @@ If launched to production, we would measure:
 - `screenshots/simulation_results.png` - The explainability and human-in-the-loop results.
 
 ---
-
-## 11. Interview Talking Points
-
-- **60-Second Explanation:** I built an AI Loan Underwriting Simulator that focuses not just on automated decisioning, but on *explainability* and *human-in-the-loop* workflows. It takes applicant data, simulates a risk score, and provides clear reason codes and visual feature profiling so underwriters know exactly why a decision was made.
-- **The Problem:** Pure AI underwriting often acts as a black box, which is unacceptable in regulated industries where adverse actions require explanations (like ECOA).
-- **The Decision:** I focused heavily on the UX of the model's output—displaying positive/negative impacts and a natural language summary—to build trust with the human operator.
-- **The Tradeoff:** I used heuristic logic in the frontend instead of a real ML backend to keep the prototype lightweight and focused entirely on the user experience of Explainable AI.
-- **Tech Stack:** React, TypeScript, Tailwind CSS, Recharts for data visualization.
-- **AI/Automation:** Simulates SHAP (SHapley Additive exPlanations) values to break down feature importance, ensuring the "AI" is transparent.
-- **Metrics:** Success would be measured by the Auto-Decision Rate and the reduction in time spent by underwriters on manual reviews.
-- **Next Steps:** Connecting it to a real predictive model (e.g., LightGBM) and adding a fairness monitoring dashboard to track disparate impact.
-- **Questions for the Interviewer:** How does your team balance the push for AI automation with regulatory compliance and explainability in your current systems?
