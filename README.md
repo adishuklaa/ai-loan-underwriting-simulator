@@ -1,5 +1,7 @@
 # AI Loan Underwriting Simulator
 
+![Project Screenshot](screenshots/dashboard.png)
+
 A prototype application demonstrating how Artificial Intelligence can be applied to consumer loan underwriting with a strong emphasis on Explainable AI (XAI), fairness, and Human-in-the-Loop (HITL) workflows.
 
 > **Disclaimer:** This is a simulated prototype utilizing heuristic scoring for demonstration purposes. It is **not** a real underwriting system and does not interface with actual credit bureaus or utilize real machine learning models for its decisions.
